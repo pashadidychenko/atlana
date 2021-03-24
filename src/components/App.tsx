@@ -10,11 +10,11 @@ class App extends React.Component<Record<string, unknown>, undefined> {
       <div>
         <BrowserRouter>
           <Switch>
-            <Route path="atlana/dist/:id">
-              <UserInfo />
-            </Route>
-            <Route path="atlana/dist/" exact>
+            <Route path="/" exact>
               <Input />
+            </Route>
+            <Route path="/:id">
+              <UserInfo />
             </Route>
           </Switch>
         </BrowserRouter>
