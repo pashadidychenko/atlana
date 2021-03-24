@@ -1,14 +1,23 @@
-import * as React from "react";
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { hot } from "react-hot-loader";
 import Input from "./Input";
-import "../assets/scss/App.scss";
+import UserInfo from "./UserInfo";
 
 class App extends React.Component<Record<string, unknown>, undefined> {
   public render() {
     return (
-      <div className="app">
-        <h1>GitHub Searcher</h1>
-        <Input />
+      <div>
+        <BrowserRouter>
+          <Switch>
+            <Route path="/:id">
+              <UserInfo />
+            </Route>
+            <Route path="/" exact>
+              <Input />
+            </Route>
+          </Switch>
+        </BrowserRouter>
       </div>
     );
   }

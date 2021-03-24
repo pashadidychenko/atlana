@@ -1,6 +1,7 @@
 .app {
   font-family: helvetica, arial, sans-serif;
   padding: 2em;
+  width: 400px;
 }
 
 .userList {
@@ -47,4 +48,14 @@
 
 .repoInfo h4 {
   margin: 10px 5px;
+}
+
+.inputContainer {
+  width: 400px;
+  text-align: center;
+}
+
+input {
+  width: 350px;
+  height: 30px;
 }

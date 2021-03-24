@@ -16,12 +16,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pashadidychenko/"
+    "url": "git+https://github.com/pashadidychenko/atlana.git"
   },
   "bugs": {
-    "url": "https://github.com/pashadidychenko/"
+    "url": "https://github.com/pashadidychenko/atlana.git"
   },
-  "homepage": "https://github.com/pashadidychenko/",
+  "homepage": "https://github.com/pashadidychenko/atlana/",
   "scripts": {
     "build": "npm run clean-dist && webpack --config=configs/webpack/prod.js",
     "clean-dist": "rimraf dist/*",
@@ -81,7 +81,9 @@
     "@material-ui/lab": "^4.0.0-alpha.57",
     "@material-ui/pickers": "^3.3.10",
     "@reduxjs/toolkit": "^1.5.0",
+    "@types/hookrouter": "^2.2.5",
     "axios": "^0.21.1",
-    "react-redux": "^7.2.3"
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0"
   }
 }
