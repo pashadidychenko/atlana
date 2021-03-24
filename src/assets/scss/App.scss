@@ -1,0 +1,50 @@
+.app {
+  font-family: helvetica, arial, sans-serif;
+  padding: 2em;
+}
+
+.userList {
+  list-style: none;
+  padding: 0;
+}
+
+.userListItem {
+  border: 1px solid black;
+  padding: 10px;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.userAvatar {
+  height: 40px;
+}
+.userInfoContainer {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.userInfoAvatar {
+  height: 150px;
+}
+.userInfoList {
+  list-style: none;
+}
+.userInfoList li {
+  padding: 5px;
+  font-size: 16px;
+}
+.userInfoBio {
+  width: 400px;
+  font-size: 14px;
+  font-style: italic;
+}
+.userRepoList {
+  padding: 0;
+}
+
+.repoInfo h4 {
+  margin: 10px 5px;
+}
