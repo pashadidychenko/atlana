@@ -2,7 +2,7 @@ import axios from "axios";
 
 async function getGitUsers(query) {
   return await axios
-    .get(`https://api.github.com/search/users?q=${query}&per_page=10`)
+    .get(`https://api.github.com/search/users?q=${query}&per_page=3`)
     .then((response) => response.data.items)
     .catch((error) => console.log(error));
 }
